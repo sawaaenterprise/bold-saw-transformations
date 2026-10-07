@@ -2,7 +2,7 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 import { ArrowDown, ArrowUpRight, FileText, Linkedin } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { CvDownload } from "@/components/cv-download";
-import portrait from "@/assets/wahab-young-natural-hand.png";
+import portrait from "@/assets/wahab-slim-youthful-hand-v2.png";
 import raahPreviewAsset from "@/assets/raah-preview.png.asset.json";
 import sawaaPreviewAsset from "@/assets/sawaa-preview.png.asset.json";
 
@@ -52,8 +52,7 @@ function Portfolio() {
       <section className="hero" aria-label="Syed Abdul Wahab introduction">
         <div className="hero-smoke" aria-hidden="true" />
         <div className="hero-texture" aria-hidden="true" />
-        <div className="dark-particles" aria-hidden="true">{Array.from({ length: 28 }, (_, index) => <i key={index} />)}</div>
-        <div className="shadow-shards" aria-hidden="true"><i /><i /><i /><i /></div>
+        <div className="hero-heat" aria-hidden="true"><i /><i /><i /></div>
         <img className="hero-image" src={portrait} alt="Syed Abdul Wahab in a sharply lit editorial portrait" width={1145} height={768} fetchPriority="high" />
         <div className="topbar" aria-hidden="true" />
         <a className="saw-wordmark" href="#top" aria-label="SAW — Syed Abdul Wahab">SAW<span>.</span></a>
