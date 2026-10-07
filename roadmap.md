@@ -6,3 +6,4 @@
 - [x] Make the hand correction visibly slimmer and younger, preserving the face.
 - [x] Remove square particles and add restrained dark fiery opening-background effects.
 - [x] Verify the corrected photo and opening page.
+- [ ] Match only the hand to the uploaded reference and verify unrelated pixels remain unchanged.
