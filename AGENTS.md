@@ -8,3 +8,6 @@
 > Commits you push to the connected branch sync back to Lovable and show up in
 > the editor, so keep the branch in a working state.
 <!-- LOVABLE:END -->
+
+- Preserve the imported portfolio and CV on TanStack routes with the source design tokens and shared button variants; this retains the original layout and interactions.
+- Limit portrait corrections to a hand-only composite over the source image; this preserves the face and all unrelated pixels.
